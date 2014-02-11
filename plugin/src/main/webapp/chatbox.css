@@ -1,0 +1,106 @@
+/* style sheets */
+.ui-chatbox {
+    position: fixed;
+    bottom:0;
+    /*padding: 2px;
+    background:  #CCCCCC;*/
+/*    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;*/
+}
+
+.ui-chatbox-titlebar {
+    padding: 3px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.ui-chatbox-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ui-chatbox-log {
+    padding: 3px;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+.ui-chatbox-input {
+    padding: 3px;
+    border-top: 1px solid grey;
+    /*overflow: hidden;*/
+}
+
+.ui-chatbox-input-box {
+    margin: 3px;
+    border: 1px solid lightgrey;/* #6699FF */
+    padding: 2px;
+    /*height: 50px;*/
+    font-size: 14px !important;
+}
+
+.ui-chatbox-icon {
+    float: right;
+}
+
+.ui-chatbox-input-focus {
+    border-color: #6699FF;
+}
+
+.ui-chatbox-msg {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+    font-size: 16px !important;
+}
+
+/* LIST #4 */
+#buddyListDiv { width:320px; font-family:Georgia, Times, serif; font-size:15px; }
+#buddyListDiv ul { list-style: none; }
+#buddyListDiv ul li { }
+#buddyListDiv ul li a { display:block; text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:30px;
+  border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
+#buddyListDiv ul li a:hover { color:#FFFFFF; background-image:url(hover.png); background-repeat:repeat-x; }
+#buddyListDiv ul li a strong { margin-right:10px; }
+
+.online-box {
+    background-image: url(status-online.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.offline-box {
+    background-image: url(status-offline.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.pull-right{
+    float:right;
+    padding-right: 9px;
+}
+
+textarea {
+    border:2px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    width: 25%;
+    resize: none;
+}
+
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}

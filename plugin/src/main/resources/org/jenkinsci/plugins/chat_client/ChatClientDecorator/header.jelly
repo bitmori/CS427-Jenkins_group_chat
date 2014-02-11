@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+<link rel="stylesheet" href="${rootURL}/plugin/chat-client/css/flick/jquery-ui-1.10.3.custom.min.css" />
+<link rel="stylesheet" href="${rootURL}/plugin/chat-client/css/chatbox.css" />
+<link rel="stylesheet" href="${rootURL}/plugin/chat-client/css/jquery.tzCheckbox.css" />
+</j:jelly>

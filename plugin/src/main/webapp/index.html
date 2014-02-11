@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Chat sample</title>
+<link href="css/flick/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/chatbox.css" />
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/qunit/qunit-1.12.0.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.tzCheckbox.css" />
+</head>
+<body>
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+<p class="t25_switch"><label for="sound_switch">Sound notification: </label><input type="checkbox" id="sound_switch" name="sound_switch" data-on="ON" data-off="OFF" checked="checked"/></p>
+
+<div id="chatDiv"></div>
+<div id="buddyListDiv"></div>
+
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery.tzCheckbox.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/socket.io.js"></script>
+<script src="http://code.jquery.com/qunit/qunit-1.12.0.js"></script>
+<script src="chatbox.js"></script>
+<script src="chat.js"></script>
+<script src="test.js"></script>
+</body>
+</html>

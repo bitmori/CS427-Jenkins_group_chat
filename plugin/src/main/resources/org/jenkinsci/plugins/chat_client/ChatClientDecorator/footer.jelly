@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+<p class="t25_switch"><label for="sound_switch">Sound notification: </label><input type="checkbox" id="sound_switch" name="sound_switch" data-on="ON" data-off="OFF" checked="checked"/></p>
+
+<div id="chatDiv"></div>
+<div id="buddyListDiv"></div>
+
+<script src="${rootURL}/plugin/chat-client/js/jquery-1.9.1.js"></script>
+<script src="${rootURL}/plugin/chat-client/js/jquery.tzCheckbox.js"></script>
+<script src="${rootURL}/plugin/chat-client/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="${rootURL}/plugin/chat-client/js/socket.io.js"></script>
+<script src="${rootURL}/plugin/chat-client/chatbox.js"></script>
+<!-- TODO: Add an extra field 'HOSTNAME' that contains the address of the chat server here! -->
+<script src="${rootURL}/plugin/chat-client/chat.js"></script>
+</j:jelly>
